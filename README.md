@@ -1,0 +1,3 @@
+# React useEffect Closure Issue
+
+This repository demonstrates a common error in React's `useEffect` hook related to closures and state updates.  The issue arises when a variable from the component's scope is captured within a callback function (like `setInterval`) and the value of this variable doesn't update as expected.  The example shows how the initial state is captured, rather than the current state, and how to fix this issue.
